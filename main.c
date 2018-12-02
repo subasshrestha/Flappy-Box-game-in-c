@@ -90,7 +90,6 @@ void main(){
 			        line(boxCoordinateX,boxCoordinateY,boxCoordinateX+20,boxCoordinateY);
 			        setcolor(BLUE);
 			        line(boxCoordinateX,boxCoordinateY+21,boxCoordinateX+20,boxCoordinateY+21);
-		        	delay(1);
 			}
 	        	//condition for game over
 			if((boxCoordinateY==59) || ((boxCoordinateX+20>=obstacleCoordinateX&&boxCoordinateX+20<=obstacleCoordinateX+30)&&!(boxCoordinateY>=obstacleCoordinateY+randomNumber&&boxCoordinateY<=obstacleCoordinateY+randomNumber+140)) || ((obstacleCoordinateX+30>=boxCoordinateX&&obstacleCoordinateX+30<=boxCoordinateX+20)&&!(boxCoordinateY>=obstacleCoordinateY+randomNumber&&boxCoordinateY+20<=obstacleCoordinateY+randomNumber+140))){
